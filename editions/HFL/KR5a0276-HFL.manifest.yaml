@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0276/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0276/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 真氣還元銘
+  date: '2015-08-28 23:44:15.105869'
+  source:
+    repository: kanripo
+    path: KR5a0276
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0276_000-HFL.yaml, hash: 'sha256:8656f364f8ae1772c593acaafd3b9a1922e30f40a2de22d3ae56734b97c1dce3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0276_000-HFL.markers.yaml, hash: 'sha256:d33929a5741d740299b3c270643bec73301a78524ba5d2d9def21f3c01cdedb7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0276_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3483
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4b28d31820484fa7f32f9a17d75bdb0fab0dca755cba65af8e069d466e1026ce
